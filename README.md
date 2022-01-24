@@ -1,1 +1,3 @@
 # FooBaaGame
+Gepriesen sei Das Rauhe Haus, das Foo Baa Game ist aus Spaß und purer Langeweile entstanden. Ziel ist es einfach ein Text Advanture zu bauen oder einfach nur irgendwas zu für zwischen durch zum programmieren zu haben wenn man beim Hauptprojekt nicht weiter kommt und mal was für zwischen durch braucht um sein Kopf wieder frei zu kriegen. Das Foo Paa Game steigert die FooPaa Power (Programmier / Coding Power für die, die es nicht wissen).
+Das Ziel ist es Ideen zu sammeln für ein Framework, was das erstellen von Konsole Anwendungen unter Visual Basic .NET oder C# oder jeder anderen .netFramework Programmiersprache vereinfachen soll.
