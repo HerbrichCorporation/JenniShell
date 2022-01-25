@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JenniShell", "..\JenniShell\JenniShell.vbproj", "{0B78C1CD-8546-43ED-BCC7-E8FCAAD7743E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JenniShellDemo", "JenniShellDemo\JenniShellDemo.vbproj", "{A6C146ED-DB2F-4E2D-A806-D2960422812A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B78C1CD-8546-43ED-BCC7-E8FCAAD7743E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B78C1CD-8546-43ED-BCC7-E8FCAAD7743E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B78C1CD-8546-43ED-BCC7-E8FCAAD7743E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B78C1CD-8546-43ED-BCC7-E8FCAAD7743E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C146ED-DB2F-4E2D-A806-D2960422812A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C146ED-DB2F-4E2D-A806-D2960422812A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C146ED-DB2F-4E2D-A806-D2960422812A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C146ED-DB2F-4E2D-A806-D2960422812A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FA19B3C-F0B5-4B48-AE88-2A3AC39ACD33}
+	EndGlobalSection
+EndGlobal

@@ -1,7 +1,4 @@
-﻿Public Enum UserInputFormat
-    Generic = 0
-    YesNo = 1
-End Enum
+﻿
 Public Class Foo
     Sub New()
         Console.ForegroundColor = ConsoleColor.DarkRed
