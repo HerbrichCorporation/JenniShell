@@ -30,4 +30,23 @@ Public Class JenniShellFunctions
                 Return Me.AskUser(Quastion)
         End Select
     End Function
+    Protected ReadOnly Property YesKeys As String()
+        Get
+            Return {"y", "j", "J", "Y"}
+        End Get
+    End Property
+    Protected ReadOnly Property NoKeys As String()
+        Get
+            Return {"n", "N"}
+        End Get
+    End Property
+    Public Function AskYesNo() As Boolean 'TDO: While True und ein Event Handler implementieren
+        If (Me.YesKeys.Contains(Console.ReadLine)) Then
+            Return True
+        ElseIf (Me.NoKeys.Contains(Console.ReadLine)) Then
+            Return False
+        Else
+            Return False
+        End If
+    End Function
 End Class

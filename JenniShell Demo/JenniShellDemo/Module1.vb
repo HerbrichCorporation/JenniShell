@@ -19,9 +19,17 @@ Public Class FooBaaGame
                     Console.WriteLine("Go")
                 Case "n", "N"
                     Console.WriteLine("Dannn hlt nicht!")
+
+                Case "exit"
+                    Select Case Me.AskUser("Foo Baa Game Modul verlassen und zur Haupt Shell zurück kehren?")
+                        Case "y", "j", "J", "Y"
+                            Return
+                        Case "n", "N"
+                            Continue While
+                    End Select
                 Case Else
-                    Console.WriteLine("Falsche Eingabe. Verpiss dich Christopher Strunk du Script Kiddy")
-            End Select
+                            Console.WriteLine("Falsche Eingabe. Verpiss dich Christopher Strunk du Script Kiddy")
+                    End Select
         End While
     End Sub
 End Class

@@ -33,7 +33,7 @@ Public Class JenniConsoleController
     Public Sub Hall()
         Me.ConsoleRunning = (True)
         While Me.Running
-            Dim syntax As String = (Console.ReadLine)
+            Dim syntax As String = (Me.AskUser("JH"))
             Dim enumerator As IEnumerable(Of Statemant) = (Me.Statemands.Where(Function(ByVal jh As Statemant) jh.SyntaxKeyword = syntax))
             If (enumerator.Count = 1) Then
                 enumerator(0).Trigger()
